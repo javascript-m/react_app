@@ -2,4 +2,13 @@
     display: block;
     width: 7rem;
     height: 7rem;
+        /*Micanje outlinea*/
+        -moz-outline:0 none;
+        outline:0 none;
+}
+    
+    /*Old school down, gumb ide prema dolje */
+    .sideBarBtn:active {
+      transform: translateY(1px);
+      filter: saturate(150%)
 }

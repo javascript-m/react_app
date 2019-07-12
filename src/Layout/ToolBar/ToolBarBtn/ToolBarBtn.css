@@ -11,14 +11,14 @@
     -moz-outline:0 none;
     outline:0 none;
     /*Za efekt kad se klikne */
-    cursor: pointer;
-    
+    cursor: pointer;   
 }   
     /*Old school down, gumb ide prema dolje */
- .toolBarBtn:active{
+ .toolBarBtn:active {
      transform: translateY(1px);
      filter: saturate(150%)     
- }
+}
+
 
  
  
