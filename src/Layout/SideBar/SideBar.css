@@ -1,4 +1,5 @@
 .sideBar {
-    overflow: hidden;
-
+    position: fixed;
+    background-color: blue;
+    width: 5rem;
 }
