@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
 .listItem {
     /*CSS Here*/
+    font-family: 'Francois One', sans-serif;
 }
