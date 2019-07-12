@@ -3,7 +3,7 @@ import './ToolBar.css';
 
 const ToolBar = () => {
     return (
-        <div className="box1"> shdfhsdjfhdsj
+        <div className="box1">
         </div>
     );
 }
