@@ -5,5 +5,14 @@
     margin: auto;
 }
 .progress {
+    height: 100%;
+    width: 30%;
+    background-color: grey;
+}
 
+.progress_status {
+    width: 70%;
+    margin: auto;
+    text-align: right;
+    padding-right: 0.2rem;
 }

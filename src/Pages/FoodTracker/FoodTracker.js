@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
 import '../Page.css';
 import HistoryList from '../../Components/HistoryList/HistoryList';
-import ProgressBar from '../../Components/ProgressBar/ProgressBar';
+import AddMeal from './AddMeal';
 
 class FoodTracker extends Component {
     render() {
         return (
             <div className='page'>
-                <div>Add Meal Comp</div>
+                <AddMeal></AddMeal>
                 <div>Stats Comp</div>
                 <HistoryList></HistoryList>
-                <ProgressBar></ProgressBar>
             </div>
         );
     }
