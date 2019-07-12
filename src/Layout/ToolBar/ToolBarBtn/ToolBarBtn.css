@@ -1,20 +1,8 @@
-.toolBar{
-
-}
-
-
-
 .toolBarBtn {
     width: 25%;
-    background-color:#fff;
     padding: 2rem;
+
+    background-color: #fff;
     border-radius: 8px;
-    float:left;
-    border:1px solid black;
-       
-}
-
-.toolBar:Hover{
-
-
+    border: 1px solid black;
 }
