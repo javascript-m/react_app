@@ -1,11 +1,12 @@
 import React from 'react';
+import SideBar from './SideBar/SideBar';
+import ToolBar from './ToolBar/ToolBar';
 
 const Layout = () => {
     return (
         <div>
-            {/*Komponente koje treba napraviti: */}
-            <div>ToolBar</div>
-            <div>Sidebar</div>
+            <ToolBar></ToolBar>
+            <SideBar></SideBar>
         </div>
     );
 }
