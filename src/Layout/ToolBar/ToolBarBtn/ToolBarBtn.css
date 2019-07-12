@@ -2,7 +2,24 @@
     width: 25%;
     padding: 2rem;
 
-    background-color: #fff;
+    color: #ffffff;
+    background-color: #9555af;
     border-radius: 8px;
     border: 1px solid black;
-}
+
+    /*Za micanje outline-a */
+    -moz-outline:0 none;
+    outline:0 none;
+    /*Za efekt kad se klikne */
+    cursor: pointer;
+    
+}   
+    /*Old school down, gumb ide prema dolje */
+ .toolBarBtn:active{
+     transform: translateY(1px);
+     filter: saturate(150%)     
+ }
+
+ 
+ 
+
