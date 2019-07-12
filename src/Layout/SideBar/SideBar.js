@@ -1,15 +1,13 @@
 import React from 'react';
 import './SideBar.css';
+import SideBarBtn from './SideBarBtn/SideBarBtn';
 
 const SideBar = () => {
     return (
-        <div className='box2'>
-            <ul>
-                <li><a href=''>Button1</a></li>
-                <li><a href=''>Button2</a></li>
-                <li><a href=''>Button3</a></li>
-                <li><a href=''>Button4</a></li>
-            </ul>
+        <div className='sideBar'>
+            <SideBarBtn></SideBarBtn>
+            <SideBarBtn></SideBarBtn>
+            <SideBarBtn></SideBarBtn>
         </div>
     );
 }
