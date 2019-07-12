@@ -9,11 +9,9 @@ const Layout = () => {
     return (
         <div>
             <ToolBar></ToolBar>
-           <div>
+           <div className='upperScreen'>
                 <SideBar></SideBar>
-                <div className='page'>
-                    <FoodTracker></FoodTracker>
-                </div>
+                <FoodTracker></FoodTracker>
            </div>
         </div>
     );
