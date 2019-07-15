@@ -6,7 +6,7 @@ import './AddMeal.css';
 
 class AddMeal extends Component {
     state = {
-        showPopup: true
+        showPopup: false
     }; 
     
     openPopup = () => {

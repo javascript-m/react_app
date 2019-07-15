@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../Page.css';
 import HistoryList from '../../Components/HistoryList/HistoryList';
+import Chart from '../../Components/Chart/Chart';
 import AddMeal from './AddMeal';
 
 class FoodTracker extends Component {
@@ -10,6 +11,7 @@ class FoodTracker extends Component {
                 <AddMeal></AddMeal>
                 <div>Stats Comp</div>
                 <HistoryList></HistoryList>
+                <Chart></Chart>
             </div>
         );
     }
