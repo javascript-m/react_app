@@ -1,5 +1,5 @@
 import React from 'react';  
-import './Popup.css';  
+import './Popup.css';
 
 const Popup = (props) => {
     return (
@@ -7,7 +7,7 @@ const Popup = (props) => {
             <div className='popupInner'>
                 <div className='popupUpperBar'>
                     <div>{props.headline}</div>
-                    <button onClick={props.close}>Close me</button>
+                    <button onClick={props.close}><i class="fa fa-times" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
