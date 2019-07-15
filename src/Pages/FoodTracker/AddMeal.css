@@ -1,0 +1,17 @@
+.popupTime, .popupCalories {
+    margin: 1rem auto;
+}
+
+.popupTime div, .popupTime input {
+    display: inline;
+    margin: 0;
+}
+
+.popupCalories div, .popupCalories input {
+    display: inline;
+    margin: 0;
+}
+
+.popupCalories input {
+    width: 6rem;
+}
