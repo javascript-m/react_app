@@ -28,7 +28,8 @@
   position: absolute;
   margin-left: 0;
   padding: 1rem;
-  background-color: #cfd0d1;
+  background-color:none;
+  font-family:'Francois One', sans-serif;
 }
 
 .popupUpperBar button{
