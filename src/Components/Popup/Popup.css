@@ -30,7 +30,14 @@
   margin: 0.5rem 1rem;
   line-height: 2rem;
   height: 2rem;
-  font-weight: bold;
+  font-family: 'Francois One', sans-serif; 
+  width: 25%;
+  font-size:22px;
+  border:1px solid black;
+  border-radius:2px;
+  -webkit-box-shadow:2px 2px 3px 2px;
+  -moz-box-shadow:2px 2px 3px 2px;
+  box-shadow:2px 2px 3px 2px black;
 }
 
 .popupUpperBar button{
@@ -38,7 +45,13 @@
   height: 1.5rem;
   margin: 0.75rem 1rem;
   border:1px solid black;
+  border-radius:2px;
   -webkit-box-shadow:2px 2px 3px 2px;
   -moz-box-shadow:2px 2px 3px 2px;
   box-shadow:2px 2px 3px 2px black;
+}
+
+.popupBtn {
+  border:1px solid black;
+  border-radius:2px;
 }
