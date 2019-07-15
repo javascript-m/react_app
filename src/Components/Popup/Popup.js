@@ -6,9 +6,9 @@ const Popup = (props) => {
         <div className='popup'>
             <div className='popupInner'>
                 <div className='popupUpperBar'>
-                    <h1>{props.headline}</h1>
+                    <div>{props.headline}</div>
+                    <button onClick={props.close}>Close me</button>
                 </div>
-                <button onClick={props.close}>Close me</button>
             </div>
         </div>
     );

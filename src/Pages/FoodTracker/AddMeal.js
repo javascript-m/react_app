@@ -4,7 +4,7 @@ import Popup from '../../Components/Popup/Popup';
 
 class AddMeal extends Component {
     state = {
-        showPopup: false
+        showPopup: true
     }; 
     
     openPopup = () => {
