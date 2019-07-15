@@ -5,11 +5,13 @@ import ToolBarBtn from './ToolBarBtn/ToolBarBtn';
 const ToolBar = () => {
     return (
         <div className='toolBar'>
-            <ToolBarBtn type="add"><i class="fa fa-times" aria-hidden="true"></i></ToolBarBtn>
-            <ToolBarBtn type="my_profile">My profile</ToolBarBtn>
-            <ToolBarBtn type="sfjdskfjd">djdskjfskdjfd</ToolBarBtn>
-            <ToolBarBtn type="show">Show</ToolBarBtn>
-
+            <ToolBarBtn type="add"><i className="fa fa-plus" aria-hidden="true"></i>
+            </ToolBarBtn>
+            <ToolBarBtn type="my_profile"><i className="fa fa-user" aria-hidden="true"></i>
+            </ToolBarBtn>
+            <ToolBarBtn type="home"><i className="fa fa-home" aria-hidden="true"></i></ToolBarBtn>
+            <ToolBarBtn type="settings"><i className="fa fa-cog" aria-hidden="true"></i>
+            </ToolBarBtn>
         </div>
     );
 }

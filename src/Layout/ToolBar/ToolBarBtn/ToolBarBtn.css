@@ -1,8 +1,8 @@
 .toolBarBtn {
     width: 25%;
-    padding: 2rem;
+    padding:1rem 2rem;
 
-    color: #ffffff;
+    color: #000000;
     background-color:#f5b342;
     border-radius: 8px;
     border: 1px solid black;
@@ -19,6 +19,9 @@
      filter: saturate(150%)     
 }
 
+.toolBarBtn i {
+    font-size:30px;
+}
 
  
  

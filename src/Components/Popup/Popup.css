@@ -28,5 +28,14 @@
   position: absolute;
   margin-left: 0;
   padding: 1rem;
-  background-color: pink;
+  background-color: #cfd0d1;
+}
+
+.popupUpperBar button{
+  height:auto;
+  border:1px solid black;
+  -webkit-box-shadow:2px 2px 3px 2px;
+  -moz-box-shadow:2px 2px 3px 2px;
+  box-shadow:2px 2px 3px 2px black;
+
 }
