@@ -3,7 +3,24 @@
     width: 70%;
     background-color: #f5b342;
     margin: auto;
+    position: relative;
+    /*ISPROBAVAM XD*/
+    top:700px;
+    border:1px solid black;
+    -webkit-box-shadow:2px 2px 3px 2px;
+    -moz-box-shadow:2px 2px 3px 2px;
+    box-shadow:2px 2px 3px 2px gray;
+    /*ISPROBAVAM XD*/
 }
 .progress {
+    height: 100%;
+    width: 30%;
+    background-color: grey;
+}
 
+.progress_status {
+    width: 70%;
+    margin: auto;
+    text-align: right;
+    padding-right: 0.2rem;
 }
