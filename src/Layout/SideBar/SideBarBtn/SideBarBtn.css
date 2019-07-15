@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
 .sideBarBtn {
     display: block;
     width: 7rem;
     height: 7rem;
-        /*Micanje outlinea*/
-        -moz-outline:0 none;
-        outline:0 none;
+    /*Micanje outlinea*/
+    -moz-outline:0 none;
+    outline:0 none;
+    /**/
+    border-radius: 2px;
+    color: #000000;
+    font-family: 'Francois One', sans-serif;   
 }
     
     /*Old school down, gumb ide prema dolje */
-    .sideBarBtn:active {
-      transform: translateY(1px);
-      filter: saturate(150%)
+.sideBarBtn:active {
+    transform: translateY(1px);
+    filter: saturate(150%)
 }
