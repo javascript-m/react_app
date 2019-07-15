@@ -5,11 +5,13 @@
 .popupTime div, .popupTime input {
     display: inline;
     margin: 0;
+    font-family: 'Francois One', sans-serif; 
 }
 
 .popupCalories div, .popupCalories input {
     display: inline;
     margin: 0;
+    font-family: 'Francois One', sans-serif; 
 }
 
 .popupCalories input {
