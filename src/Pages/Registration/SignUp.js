@@ -3,10 +3,9 @@ import './Registration.css';
 
 const SignUp = () => {
     const handleSignUp = () => {
-        console.log("Button Clicked");
         var email = document.getElementById('SU_email').value;
         var password = document.getElementById('SU_pass').value;
-        
+
         //Ovdje treba pronaci kako da provjerava je li email oblika email
         if (email.length < 4) {
           alert('Please enter an email address.');
