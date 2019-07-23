@@ -1,6 +1,3 @@
-.page {
-    background-color:#FFFFFF;
-    /*pozicioniranje */
-    position:relative;
-    z-index:0;
+.upperScreen {
+    padding-bottom: 5rem;
 }

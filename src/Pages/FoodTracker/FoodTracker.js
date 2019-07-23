@@ -8,8 +8,8 @@ class FoodTracker extends Component {
     render() {
         return (
             <div className='page'>
+                <div className='headline'>Food Tracker</div>
                 <AddMeal></AddMeal>
-                <div>Stats Comp</div>
                 <HistoryList></HistoryList>
                 <Chart></Chart>
             </div>

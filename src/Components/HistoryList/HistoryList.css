@@ -1,6 +1,12 @@
 .historyList {
     padding: 1rem;
-    margin: 2rem;
+    margin: 0.5rem 2rem 0.2rem 2rem;
     text-align: left;
     background-color:#f5b342;
+}
+
+.moreListItems {
+    display: block;
+    margin: 0 2rem 2rem 2rem;
+    text-align: right;
 }

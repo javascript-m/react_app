@@ -1,3 +1,11 @@
+.addMealBtn {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+}
+
 .popupTime, .popupCalories {
     margin: 1rem auto;
 }

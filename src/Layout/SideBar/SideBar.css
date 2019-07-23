@@ -1,4 +1,6 @@
 .sideBar {
     position: fixed;
-    width: 5rem;
+    width: 7rem;
+    height: 100%;
+    background-color: rgb(122, 122, 122, 0.8);
 } 

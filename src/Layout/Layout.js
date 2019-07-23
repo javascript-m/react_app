@@ -7,12 +7,12 @@ import './Layout.css';
 
 const Layout = () => {
     return (
-        <div>
+        <div className='layout'>
+            <div className='upperScreen'>
+                    <SideBar></SideBar>
+                    <FoodTracker></FoodTracker>
+            </div>
             <ToolBar></ToolBar>
-           <div className='upperScreen'>
-                <SideBar></SideBar>
-                <FoodTracker></FoodTracker>
-           </div>
         </div>
     );
 }

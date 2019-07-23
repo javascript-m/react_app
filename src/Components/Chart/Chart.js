@@ -11,9 +11,12 @@ import './Chart.css';
 const Chart = (props) => {
     return (
         <div>
-            <ColumnChart
-                className='colChart'
+            <div className='pageSubtitle'>My stats</div>
+            <div className='chartHolder'>
+                <ColumnChart
+                    className='colChart'
                 data={[["Sun", 32], ["Mon", 46], ["Tue", 28]]} />
+            </div>
         </div>
     );
 }

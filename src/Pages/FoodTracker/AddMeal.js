@@ -34,7 +34,7 @@ class AddMeal extends Component {
                         btnText='Add'>
                             <div className='popupTime'>
                                 <div>Time: </div>
-                                <input type='time' value='10:50'></input>
+                                <input type='time'></input>
                             </div>
                             <div className='popupCalories'>
                                 <div>Calories (kcal): </div>

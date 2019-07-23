@@ -1,0 +1,8 @@
+.chartHolder {
+    position: relative;
+    margin: auto 2rem;
+    background-color: lightgray;
+    text-align: left;
+    z-index: 1;
+    padding: 3rem 4rem 3rem 2rem;
+}
