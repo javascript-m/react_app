@@ -1,0 +1,23 @@
+.containter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 1);
+    z-index: 5;
+}
+
+.container_inner {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+}
+
+.containter h1 {
+    color: white;
+    opacity: 1;
+}
+
+.containter input {
+    margin: 2rem auto;
+    display: block;
+}
