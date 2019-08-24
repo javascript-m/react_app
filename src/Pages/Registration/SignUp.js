@@ -1,5 +1,6 @@
 import React from 'react';
 import './Registration.css';
+import * as firebase from 'firebase';
 
 const SignUp = () => {
     const handleSignUp = () => {
@@ -16,16 +17,18 @@ const SignUp = () => {
           return;
         }
 
-        /*firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+        firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
           var errorCode = error.code;
           var errorMessage = error.message;
+          
           if (errorCode == 'auth/weak-password') {
             alert('The password is too weak.');
           } else {
             alert(errorMessage);
           }
-          console.log(error);
-        });*/
+          
+          console.log(errorMessage);
+        });
       }
     
     
